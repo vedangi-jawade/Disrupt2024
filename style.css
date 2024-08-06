@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+nav {
+    width: 1, 440px;
+    height: 91px;
+    padding: 16px 142px 16px 142px;
+
+
+
+
+    background: #202020f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-logo {
+    width: 260px;
+    height: 44.34px;
+    gap: 20px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+.d-shape img {
+    width: 42px;
+    height: 44.04px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.e-cell-logo-nav img {
+    width: 120.62px;
+    height: 44.34px;
+    gap: 4.62px;
+    opacity: 0px;
+    margin-left: 10px;
+}
+
+.nav-items {
+    color: white;
+    width: 283px;
+    height: 19px;
+    opacity: 0px;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-items ul li {
+    font-family: Coolvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+
+}
+
+.bg-blue {
+    color: #6E99FF;
+}
+
+.nav-register button {
+    background: #6E99FF;
+    width: Hug (122px)px;
+    height: Hug (35px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* ui */
+/* .desrupt-ui {} */
+
+.dream-dare-disrupt {
+
+    background: #000;
+    width: 1440px;
+    height: 880px;
+    gap: 0px;
+    border: 0px 0px 0.5px 0px;
+    opacity: 0px;
+
+    display: flex-col;
+    align-items: center;
+}
+
+.text-dream {
+    padding-top: 1vh;
+    ;
+    color: white;
+    display: flex;
+    width: 1026px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dream-dare-disrupt p {
+    font-family: Coolvetica;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 144px;
+    text-align: left;
+
+}
+
+.para-dream {
+    width: 484px;
+    height: 40px;
+    top: 305px;
+    left: 478px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #929292;
+}
+
+.dream-register {
+    width: 184px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 12px;
+    margin-top: 6vh;
+    opacity: 0px;
+    background: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    background: #6E99FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disrupt-img{
+    display: flex;
+    justify-content: center;
+}
+.disrupt-img img {
+    width: 800px;
+    height: 500px;
+}
+
+.dream-register button {
+    width: 120px;
+    height: 24px;
+    font-family: Coolvetica;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 24px; */
+    /* letter-spacing: 0.04em; */
+    text-align: left;
+    background: #6E99FF;
+    border: none;
+
+}
+
+/* .dream-dare-disrupt img{
+    /* position:fixed; */
+/*     
+    width: 575px;
+height: 839px;
+top: 980px;
+left: 323px;
+gap: 0px;
+opacity: 0px;
+/* angle: 90 deg; */
+/* margin-left: auto;
+margin-right: auto; */
+
+/* info - startup */
+.info-startup {
+    width: 1440px;
+    height: 240px;
+    /* padding: 71px 139px 72px 141px; */
+
+    border: 2px 0px 2px 0px;
+    opacity: 0px;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-text {
+    display: flex;
+
+}
+
+.home-text img {
+    width: 58px;
+    height: 66px;
+    padding: 8.25px 8.25px 5.5px 0.25px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.home-text p {
+    width: 126px;
+    height: 53px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Coolvetica;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.startup-helped {
+    width: 201px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Coolvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.04em;
+    text-align: center;
+
+
+}
+
+
+/* SECOND PAGE */
+.india-startup {
+    width: 1440px;
+    height: 880px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #000;
+
+
+}
+
+.india-startup-heading {
+    width: 1183px;
+    height: 216px;
+    top: 40px;
+    left: 129px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.india-startup-heading pre {
+    font-family: Coolvetica;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: rgb(95, 95, 92);
+
+}
+
+.random-text {
+    /* width: 484px; */
+    height: 40px;
+    /* top: 280px;
+left: 478px; */
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.random-text pre {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 20px; */
+    text-align: center;
+    color: #929292;
+}
+
+.workshops {
+    /* width: 360px; */
+    height: 440px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #121212;
+    /* border: 1px solid #6E99FF; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.workshop-1 {
+    width: 360px;
+    height: 440px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    /* border: 10px ; */
+    opacity: 0px;
+    background-color: #121212;
+    border: 10px solid #6E99FF;
+
+
+
+}
+
+.img-1 {
+    width: 360px;
+    height: 220px;
+    top: -79.29px;
+    left: -84.15px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("work-1.png");
+    background-size: cover;
+
+}
+
+.heading-1 {
+
+    height: 20px;
+
+    top: 284px;
+    left: 39px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
+}
+
+.text-1 {
+    width: 281px;
+    height: 80px;
+    top: 320px;
+    left: 39px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #929292;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
+
+}
+
+.img-2 {
+    width: 360px;
+    height: 220px;
+    top: -79.29px;
+    left: -84.15px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("work-2.png");
+    background-size: cover;
+
+}
+
+.img-3 {
+    width: 360px;
+    height: 220px;
+    top: -79.29px;
+    left: -84.15px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("work-3.png");
+    background-size: cover;
+
+}
