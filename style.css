@@ -4,19 +4,23 @@
     color: #fff;
 }
 
+.flex {
+    display: flex;
+    gap:.2vw;
+}
+
+.gray {
+    color: rgb(129, 115, 115);
+}
+
 nav {
     width: 1, 440px;
     height: 91px;
     padding: 16px 142px 16px 142px;
-
-
-
-
     background: #202020f5;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .nav-logo {
@@ -25,7 +29,6 @@ nav {
     gap: 20px;
     opacity: 0px;
     display: flex;
-
 }
 
 .d-shape img {
@@ -33,7 +36,6 @@ nav {
     height: 44.04px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 .e-cell-logo-nav img {
@@ -63,7 +65,6 @@ nav {
     font-weight: 400;
     line-height: 19.2px;
     text-align: left;
-
 }
 
 .bg-blue {
@@ -88,65 +89,58 @@ button:hover {
 /* ui */
 /* .desrupt-ui {} */
 
+.desrupt-ui{
+    width: 100vw;
+    background: red;
+}
+
 .dream-dare-disrupt {
-
     background: #000;
-    width: 1440px;
-    height: 880px;
-    gap: 0px;
-    border: 0px 0px 0.5px 0px;
-    opacity: 0px;
-
-    display: flex-col;
+    width: 100%;
+    height: 55vw;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
+
 .text-dream {
-    padding-top: 1vh;
-    ;
+    margin-top: 3vw;
     color: white;
+    width: 80vw;
     display: flex;
-    width: 1026px;
-    height: 144px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vw;
 }
 
-.dream-dare-disrupt p {
+.dream-dare-disrupt p{
     font-family: Coolvetica;
-    font-size: 120px;
+    font-size: 7vw;
     font-weight: 400;
-    line-height: 144px;
-    text-align: left;
-
+    text-align: center;
+    margin-left: 1vw;
 }
 
-.para-dream {
-    width: 484px;
-    height: 40px;
-    top: 305px;
-    left: 478px;
-    gap: 0px;
-    opacity: 0px;
+.para-dream p{
+    width: 34.4vw;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     font-family: Quicksand;
-    font-size: 16px;
+    font-size: 1.2vw;
     font-weight: 400;
-    line-height: 20px;
     text-align: center;
     color: #929292;
 }
 
 .dream-register {
-    width: 184px;
-    height: 48px;
+    width: 10vw;
+    height: 3vw;
     padding: 12px 32px 12px 32px;
     gap: 10px;
-    border-radius: 12px;
-    margin-top: 6vh;
-    opacity: 0px;
-    background: wheat;
+    border-radius: 20px;
+    margin-top: 3vw;
     margin-left: auto;
     margin-right: auto;
     background: #6E99FF;
@@ -154,77 +148,50 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+
+.dream-register button {
+    width: auto;
+    height: 100%;
+    font-family: Coolvetica;
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-align: left;
+    background: #6E99FF;
+    border: none;
+}
+
 .disrupt-img{
     display: flex;
     justify-content: center;
 }
 .disrupt-img img {
-    width: 800px;
-    height: 500px;
+    width: 60vw;
+    height: 30vw;
 }
-
-.dream-register button {
-    width: 120px;
-    height: 24px;
-    font-family: Coolvetica;
-    font-size: 20px;
-    font-weight: 400;
-    /* line-height: 24px; */
-    /* letter-spacing: 0.04em; */
-    text-align: left;
-    background: #6E99FF;
-    border: none;
-
-}
-
-/* .dream-dare-disrupt img{
-    /* position:fixed; */
-/*     
-    width: 575px;
-height: 839px;
-top: 980px;
-left: 323px;
-gap: 0px;
-opacity: 0px;
-/* angle: 90 deg; */
-/* margin-left: auto;
-margin-right: auto; */
-
-/* info - startup */
 .info-startup {
-    width: 1440px;
-    height: 240px;
-    /* padding: 71px 139px 72px 141px; */
-
-    border: 2px 0px 2px 0px;
-    opacity: 0px;
+    width: 100vw;
+    height: 13vw;
     background-color: #121212;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.home-text {
+.home-text{
     display: flex;
-
+    align-items: center;
 }
 
 .home-text img {
-    width: 58px;
-    height: 66px;
+    height: 5vw;
     padding: 8.25px 8.25px 5.5px 0.25px;
     gap: 0px;
     opacity: 0px;
-
 }
 
-.home-text p {
-    width: 126px;
-    height: 53px;
-    gap: 0px;
-    opacity: 0px;
+.home-text p{
     font-family: Coolvetica;
-    font-size: 80px;
+    font-size: 5vw;
     font-weight: 400;
     line-height: 96px;
     letter-spacing: 0.04em;
@@ -251,23 +218,22 @@ margin-right: auto; */
 
 /* SECOND PAGE */
 .india-startup {
-    width: 1440px;
-    height: 880px;
-    gap: 0px;
-    opacity: 0px;
+    width: 100vw;
+    height: 60vw;
     background-color: #000;
-
-
 }
 
 .india-startup-heading {
-    width: 1183px;
-    height: 216px;
-    top: 40px;
-    left: 129px;
-    gap: 0px;
-    opacity: 0px;
-
+    width: 100vw;
+    height: 20vw;
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.india-startUp-h1{
+    font-size: 4vw;
+    gap: 30px;
 }
 
 .india-startup-heading pre {
@@ -283,18 +249,11 @@ margin-right: auto; */
 
 .random-text {
     margin-top: 40px;
-    /* width: 484px; */
     height: 40px;
-    /* top: 280px;
-left: 478px; */
     gap: 0px;
     opacity: 0px;
     display: flex;
     justify-content: center;
-
-
-
-
 }
 
 .random-text pre {
