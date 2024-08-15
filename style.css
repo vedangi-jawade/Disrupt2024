@@ -4,6 +4,9 @@
     color: #fff;
 }
 
+.andh{
+    display: flex;
+}
 .flex {
     display: flex;
     gap:.2vw;
