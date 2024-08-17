@@ -393,79 +393,68 @@ button:hover {
 }
 
 .perk-head {
-    width: 10vw;
+    justify-content: center;
+    gap: 1vw;
     font-family: Coolvetica;
-    font-size: 1vw;
+    font-size: 4vw;
     font-weight: 400;
-    color: #000;
     letter-spacing: 0.04em;
-    text-align: center;
+    padding-top: 8vw;
 }
 
 .perks-main {
-    width: 1, 157px;
-    height: 744px;
-    top: 170px;
-    left: 141px;
-    gap: 24px;
-    opacity: 0px;
+    gap: 2vw;
     display: flex;
-    margin-top: 100px;
+    margin-top: 4vw;
+    padding-bottom: 5vw;
     flex-direction: column;
-    justify-content: space-evenly;
-
 }
 
 .perks-main-box {
-    width: 1, 157px;
-    height: 65px;
-    padding: 32px 40px 32px 40px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw 3vw 2vw 4vw;
     border-radius: 12px;
-    border: 2px solid #778FD440;
+    border: 2px solid #8ca5f06d;
     display: flex;
-    justify-content: space-around;
+    color: white;
+    opacity: .6;
+}
+.perks-main-box:hover{
+    opacity: 1;
+    border: 2px solid  #6E99FF;
 }
 
 .perks-main-box-head {
-    width: 346px;
-    height: 40px;
-    gap: 36px;
-    opacity: 0px;
+    align-items: center;
+    width: 30vw;
+    gap: 3vw;
     display: flex;
 }
 
 .perks-main-box-head img {
-    /* width: 32px;
-    height: 40px; */
+    width: 2.8vw;
+    height: 3.4vw;
+    background: #000;
 }
 
 .perks-main-box-head p {
-    width: 278px;
-    height: 40px;
-
     font-family: Coolvetica;
-    font-size: 40px;
+    font-size: 3.4vw;
     font-weight: 400;
-    /* line-height: 72px; */
     letter-spacing: 0.04em;
-    text-align: center;
-    color: #929292;
-
 }
 
 .perks-main-box-text {
-    width: 636px;
-    height: 31px;
-    gap: 0px;
-    opacity: 0px;
+    width: 45vw;
+    margin-left: 3vw;
     font-family: Quicksand;
-    font-size: 16px;
+    font-size: 1.2vw;
     font-weight: 400;
-    line-height: 20px;
     letter-spacing: 0.04em;
     text-align: left;
-    color: #FFFFFF;
-
+    opacity: 1;
 }
 
 .feedback-page {
@@ -473,19 +462,22 @@ button:hover {
     border-width: 2px, 0px, 2px, 0px;
     border-style: solid;
     border-color: #6D6D6D33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .feedback-page-head {
-    width: 1155px;
-    height: 144px;
-    font-family: Coolvetica;
-    font-size: 1vw;
-    font-weight: 400;
-    line-height: 72px;
-    letter-spacing: 0.04em;
     text-align: center;
+    justify-content: center;
+    width: 63vw;
+    font-family: Coolvetica;
+    font-size: 4vw;
+    font-weight: 400;
+    padding-bottom: 3vw;
+    padding-top: 4vw;
+    letter-spacing: 0.04em;
     color: grey;
-    margin-left: 100px;
 }
 
 .feedback-page-div {
@@ -507,13 +499,7 @@ button:hover {
     width: 70px;
     height: 70px;
     font-size: 50px;
-    /* top: 413px;
-left: 242px; */
-    /* padding: 17.5px 0px 17.5px 0px; */
-    /* gap: 0px;
-opacity: 0px; */
     margin-left: 25px;
-
 }
 
 .feedback-page-box {
