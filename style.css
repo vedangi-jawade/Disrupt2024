@@ -19,35 +19,34 @@
 .white{
     color: white;
 }
-
+/* navbar */
 nav {
-    width: 1, 440px;
-    height: 91px;
-    padding: 16px 142px 16px 142px;
-    background: #202020f5;
+    width: 100%;
+    height: 7vw;
+    background: #161515f4;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    border-bottom:1px  solid rgba(128, 128, 128, 0.488);
 }
 
 .nav-logo {
-    width: 260px;
-    height: 44.34px;
-    gap: 20px;
-    opacity: 0px;
+    gap: 2vw;
     display: flex;
+    align-items: center;
 }
 
 .d-shape img {
-    width: 42px;
-    height: 44.04px;
+    width: 3.8vw;
+    height: 4vw;
     gap: 0px;
     opacity: 0px;
 }
 
 .e-cell-logo-nav img {
-    width: 120.62px;
-    height: 44.34px;
+    width: 10vw;
+    height: 4vw;
     gap: 4.62px;
     opacity: 0px;
     margin-left: 10px;
@@ -55,23 +54,18 @@ nav {
 
 .nav-items {
     color: white;
-    width: 283px;
-    height: 19px;
-    opacity: 0px;
 }
 
 .nav-items ul {
     display: flex;
     list-style: none;
-    gap: 24px;
+    gap: 2vw;
 }
 
 .nav-items ul li {
     font-family: Coolvetica;
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
 }
 
 .bg-blue {
@@ -80,12 +74,9 @@ nav {
 
 .nav-register button {
     background: #6E99FF;
-    width: Hug (122px)px;
-    height: Hug (35px)px;
-    padding: 8px 16px 8px 16px;
-    gap: 10px;
+    font-size: 1vw;
+    padding: .7vw 1.3vw .7vw 1.3vw;
     border-radius: 8px;
-    opacity: 0px;
     color: white;
 }
 
@@ -101,6 +92,7 @@ button:hover {
 }
 
 .dream-dare-disrupt {
+    padding-top: 10vw;
     background: #000;
     width: 100%;
     height: 55vw;
@@ -221,7 +213,8 @@ button:hover {
 
 /* SECOND PAGE */
 .india-startup {
-    width: 100vw;
+    padding-top:3vw;
+    /* width: 100vw; */
     height: fit-content;
     background: #000;
     padding-bottom: 1vw;
@@ -236,7 +229,7 @@ button:hover {
 
 .india-startUp-h1 {
     font-size: 4vw;
-    gap: 30px;
+    gap: 1.2vw;
 }
 
 .random-text {
@@ -480,163 +473,148 @@ button:hover {
     color: grey;
 }
 
-.feedback-page-div {
+.feedback-page-div{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3vw;
 }
-
-.feedback-page-box {
-    width: 876px;
-    height: 376px;
+.feedback-and-profile{
+    width: 62vw;
+    height: 28vw;
     border-radius: 12px;
-    background-color: #0C0C0C;
     border: 2px solid #6E99FF;
+    margin-bottom: 2vw;
+}
+.feedback-and-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback-page-box {
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: .7;
+}
+.feedback-page-box img{
+    margin-top: 3vw;
+    width: 2.8vw;
+    height: 3vw;
 }
 
 .feedback-page-div i {
-    color: grey;
-    width: 70px;
-    height: 70px;
-    font-size: 50px;
-    margin-left: 25px;
-}
-
-.feedback-page-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    color: green;
+    font-size: 5vw;
 }
 
 .feedback-page-box-text {
-    width: 553px;
-    height: 120px;
-    top: 89px;
-    left: 162px;
-    gap: 0px;
-    opacity: 0px;
+    width: 70%;
+    height: fit-content;
+    margin-top: 8vw;
     font-family: Quicksand;
-    font-size: 16px;
+    font-size: 1.2vw;
     font-weight: 400;
-    line-height: 20px;
     text-align: center;
-    color: #FFFFFF;
-
-}
-
-.feedback-page-box-doublequote {
-    width: 47px;
-    height: 80px;
-    top: 58px;
-    left: 74px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Coolvetica;
-    font-size: 120px;
-    font-weight: 400;
-    line-height: 144px;
-    text-align: center;
-    color: #6E99FF;
-    margin-bottom: 200px;
-
 }
 
 .user-profile {
-    width: 206px;
-    height: 53px;
-    top: 269px;
-    left: 335px;
-    gap: 15px;
-    opacity: 0px;
-
-
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+   
 }
 
 .user-profile img {
-
-    width: 57px;
-    height: 53px;
-    top: -15px;
-    left: -4px;
-    gap: 0px;
-    opacity: 0px;
+    width: 4vw;
+    height: 4vw;
     border-radius: 50%;
-
 }
 
 .user-profile-name {
-    width: 138px;
-    height: 11px;
     font-family: Coolvetica;
-    font-size: 16px;
+    font-size: 1.4vw;
     font-weight: 400;
-    line-height: 11px;
     text-align: left;
     color: #FFFFFF;
-
 }
 
 .user-profile-info {
-    width: 138px;
-    height: 15px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Quicksand;
-    font-size: 12px;
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 15px;
-    text-align: center;
+    text-align: left;
     color: #929292;
-
+    margin-top: .2vw;
 }
 
-.feedback-and-profile {
-    width: 876px;
-    height: 400 px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
 
 .feedback-options {
-    width: 90px;
-    height: 10px;
-    top: 660px;
-    left: 675px;
-    gap: 10px;
-    opacity: 0px;
     display: flex;
     justify-content: space-evenly;
     margin-right: auto;
     margin-left: auto;
-
-
+    margin-bottom: 4vw;
 }
 
 .dots {
-    width: 10px;
-    height: 10px;
+    width: 1vw;
+    height: 1vw;
     gap: 0px;
     opacity: 0px;
     border-radius: 50%;
     background-color: #6E99FF;
 }
-
+/* doubts */
 .doubt-page {
     border: 0px 0px 2px 0px;
     background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .doubt-page-head {
+    padding-top: 3vw;
     font-family: Coolvetica;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 400;
-    line-height: 72px;
     letter-spacing: 0.04em;
     text-align: center;
-    margin-left: auto;
-    margin-left: auto;
+}
+
+.doubts-table{
+    padding: 4vw;
+    border: 2px solid #6E99FF;
+    border-radius: 8px;
+    margin-top: 2vw;
+    width: 75%;
+    color: white;
+}
+
+
+.doubt-line{
+    padding: 0 0 1vw 0;
+    border-width: 0 0 .2vw 0;
+    border-style: solid;
+    border-color: rgb(69, 66, 66);
+}
+.doubt-lines-headig{
+
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plus-cros-icon{
+    margin-right: 1vw;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.doubt-lines-text{
+    margin-top: 1vw;
+    font-size: 1.1vw;
 }
