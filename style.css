@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Coolvetica;
+    src: url(https://www.dafont.com/coolvetica.font);
+}
+
 * {
     padding: 0;
     margin: 0;
