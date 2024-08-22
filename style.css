@@ -1,8 +1,19 @@
 @font-face {
+    font-family: 'Coolvetica';
+    src: url('fonts/coolvetica/coolvetica\ rg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('font/Quicksand.otf') format('opentype');
+
+}@font-face {
     font-family: Coolvetica;
     src: url(https://www.dafont.com/coolvetica.font);
 }
-
+body {
+    font-family: 'Coolvetica', sans-serif;
+}
 * {
     padding: 0;
     margin: 0;
@@ -130,7 +141,7 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
     font-family: Quicksand;
-    font-size: 1.2vw;
+    font-size: 1.277vw;
     font-weight: 400;
     text-align: center;
     color: #929292;
@@ -149,6 +160,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .dream-register button {
@@ -160,6 +172,7 @@ button:hover {
     text-align: left;
     background: #6E99FF;
     border: none;
+    color: #fff;
 }
 
 .disrupt-img {
@@ -680,7 +693,7 @@ blockquote footer img{
 .faq-answer {
     display: none;
     margin-top: 1vw;
-    font-size: 1.1vw;
+    font-size: 1.7vw;
     padding-bottom: .5vw;
 }
 /* footer */
